@@ -18,7 +18,7 @@ const formSchema = yup.object().shape({
     password: yup
       .string()
       .required('Must be a valid password!'),
-    tos: yup.boolean(false),
+    tos: yup.boolean(true),
 });
 
 export default formSchema
